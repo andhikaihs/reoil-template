@@ -47,7 +47,7 @@
           <li><a href="../pages/Book.php">Order</a></li>
           <li class="dropdown"><a href="#"><img src="../assets/icon/user.png" height="14px" class="me-2">USER1<i class="bi bi-chevron-down dropdown-indicator"></i></a>
             <ul>
-              <li><a href="../pages/Poin.php"><img src="../assets/icon/coin.png" height="22px">100 Poin</a></li>
+              <li><a href="../pages/Poin.php"><img src="../assets/icon/coin.png" height="22px">1000 Poin</a></li>
               <li><a href="../pages/Profile.php">Profile</a></li>
               <li><a href="../pages/Status.php">Status Pesanan</a></li>
               <li><a href="../pages/Home.php">Keluar</a></li>

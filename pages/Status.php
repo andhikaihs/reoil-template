@@ -47,7 +47,7 @@
             <li><a href="../pages/Book.php">Order</a></li>
             <li class="dropdown"><a href="#"><img src="../assets/icon/user.png" height="14px" class="me-2">USER1<i class="bi bi-chevron-down dropdown-indicator"></i></a>
                 <ul>
-                    <li><a href="../pages/Poin.php"><img src="../assets/icon/coin.png" height="22px">100 Poin</a></li>
+                    <li><a href="../pages/Poin.php"><img src="../assets/icon/coin.png" height="22px">1000 Poin</a></li>
                     <li><a href="../pages/Profile.php">Profile</a></li>
                     <li><a class="active" href="../pages/Status.php">Status Pesanan</a></li>
                     <li><a href="../pages/Home.php">Keluar</a></li>
@@ -98,29 +98,38 @@
             <thead class="thead-dark">
               <tr>
                 <th scope="col">ID Pesanan</th>
+                <th scope="col">Date</th>
                 <th scope="col">Name</th>
                 <th scope="col">Phone</th>
                 <th scope="col">Address</th>
+                <th scope="col">Layanan</th>
                 <th scope="col">Jumlah</th>
                 <th scope="col">Status</th>
+                <th scope="col">Poin</th>
               </tr>
             </thead>
             <tbody>
                 <tr>
                     <th scope="row">193810</th>
+                    <td>17/03/2023 13:01</td>
                     <td>USER1</td>
                     <td>081283918293</td>
                     <td>Bandung</td>
+                    <td>Penjemputan</td>
                     <td>-</td>
                     <td>Menunggu Konfirmasi</td>
+                    <td>-</td>
                 </tr>
                 <tr>
                     <th scope="row">142142</th>
+                    <td>22/01/2023 17:34</td>
                     <td>USER1</td>
                     <td>081283918293</td>
                     <td>Bandung</td>
+                    <td>Penjemputan</td>
                     <td>2 Liter</td>
                     <td>Selesai</td>
+                    <td>2000</td>
                 </tr>
             </tbody>
         </table>

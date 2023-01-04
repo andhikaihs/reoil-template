@@ -47,7 +47,7 @@
               <li><a href="../pages/Book.php">Order</a></li>
               <li class="dropdown"><a href="#"><img src="../assets/icon/user.png" height="14px" class="me-2">USER1<i class="bi bi-chevron-down dropdown-indicator"></i></a>
                 <ul>
-                    <li><a href="../pages/Poin.php"><img src="../assets/icon/coin.png" height="22px">100 Poin</a></li>
+                    <li><a href="../pages/Poin.php"><img src="../assets/icon/coin.png" height="22px">1000 Poin</a></li>
                     <li><a href="../pages/Profile.php">Profile</a></li>
                     <li><a href="../pages/Status.php">Status Pesanan</a></li>
                     <li><a href="../pages/Home.php">Keluar</a></li>
@@ -120,17 +120,39 @@
                     </div>
                     <div class="d-grid gap-1 col-6 mx-auto">
                       <button class="btn btn-primary mt-4" type="submit" name="submit">Ubah</button>
-                    </div>                                        
+                    </div>
+                    <div class="d-grid gap-1 col-6 mx-auto">
+                      <button class="btn btn-danger mt-4" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Delete Akun</button>
+                    </div>                                         
                 </form>
 
               </div>
             </div>
           </div>
 
-
         </div>
       </div>
     </section>
+
+    <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Delete Akun</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          Anda yakin untuk menghapus akun?
+          semua histori dan poin akan hilang
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger">Delete</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
 
   <!-- ======= Footer ======= -->
   <footer class="footer" role="contentinfo">

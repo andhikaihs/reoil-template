@@ -100,6 +100,7 @@
                 <th scope="col">Name</th>
                 <th scope="col">Phone</th>
                 <th scope="col">Address</th>
+                <th scope="col">Layanan</th>
                 <th scope="col">Jumlah</th>
                 <th scope="col">Status</th>
               </tr>
@@ -108,10 +109,11 @@
                 <tr>
                   <th scope="row">193810</th>
                   <td>7391123</td>
-                  <td>17/03/2023</td>
+                  <td>17/03/2023 13:01</td>
                   <td>USER1</td>
                   <td>081283918293</td>
                   <td>Bandung</td>
+                  <td>Penjemputan</td>
                   <td><input type="text" class="me-1" style="width: 35px;">Liter</td>
                   <td>
                     <div class="dropdown">
@@ -129,14 +131,15 @@
                 <tr>
                   <th scope="row">117293</th>
                   <td>2384092</td>
-                  <td>12/03/2023</td>
+                  <td>12/03/2023 11:16</td>
                   <td>USER2</td>
                   <td>08128319872</td>
                   <td>Jakarta</td>
+                  <td>Penjemputan</td>
                   <td><input type="text" class="me-1" style="width: 35px;">Liter</td>
                   <td>
                     <div class="dropdown">
-                    <button class="btn btn-light dropdown-toggle" type="button" data-bs-toggle="dropdown">Kurir Menjemput</button>
+                    <button class="btn btn-light dropdown-toggle" type="button" data-bs-toggle="dropdown">Diambil Kurir</button>
                     <ul class="dropdown-menu">
                         <li><a href="">Menunggu Konfirmasi</a></li>
                         <li><a href="">Permintaan Diterima</a></li>
@@ -150,11 +153,12 @@
                 <tr>
                   <th scope="row">142142</th>
                   <td>7391123</td>
-                  <td>22/01/2023</td>
+                  <td>22/01/2023 17:34</td>
                   <td>USER1</td>
                   <td>081283918293</td>
                   <td>Bandung</td>
-                  <td><input type="text" class="me-1" style="width: 35px;" value="2">Liter</td>
+                  <td>Penjemputan</td>
+                  <td><input type="text" class="me-1" style="width: 35px;" value="2" disabled>Liter</td>
                   <td>
                     <div class="dropdown">
                     <button class="btn btn-light dropdown-toggle" type="button" data-bs-toggle="dropdown">Selesai</button>

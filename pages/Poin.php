@@ -47,7 +47,7 @@
             <li><a href="../pages/Book.php">Order</a></li>
             <li class="dropdown"><a href="#"><img src="../assets/icon/user.png" height="14px" class="me-2">USER1<i class="bi bi-chevron-down dropdown-indicator"></i></a>
                 <ul>
-                    <li><a href="../pages/Poin.php"><img src="../assets/icon/coin.png" height="22px">100 Poin</a></li>
+                    <li><a href="../pages/Poin.php"><img src="../assets/icon/coin.png" height="22px">1000 Poin</a></li>
                     <li><a href="../pages/Profile.php">Profile</a></li>
                     <li><a href="../pages/Status.php">Status Pesanan</a></li>
                     <li><a href="../pages/Home.php">Keluar</a></li>
@@ -94,7 +94,16 @@
     <section class="section bg-light">
         <div class="container">
 
-            <div class="row align-items-stretch">
+            <div class="row align-items-stretch" data-aos="fade-down">
+              <div class="row">
+                <div class="col-md-4 text-center bg-info rounded-pill">
+                  <h3>Poin Anda</h3>
+                </div>
+                <div class="col-md-8 text-center text-white bg-secondary">
+                  <h3>1000</h3>
+                </div>
+
+              </div>
 
                 <div class="col-lg-4 my-5 mb-lg-0" data-aos="fade-up" >
                     <div class="pricing h-75 text-center">
@@ -109,7 +118,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 my-5 mb-lg-0" data-aos="fade-down" >
+                <div class="col-lg-4 my-5 mb-lg-0" data-aos="fade-up" >
                     <div class="pricing h-75 text-center popular">
                         <h3>Voucher Gojek</h3>
                         <ul class="list-unstyled">
@@ -118,7 +127,7 @@
                         </ul>
                         <img src="../assets/img/gojek.png" alt="Image" class="img-fluid" width="50%">
                         <div class="d-grid gap-1 col-4 mx-auto">
-                            <button class="btn btn-light mt-5" type="submit" name="submit">Tukar</button>
+                          <button class="btn btn-light mt-5" type="button" data-bs-toggle="modal" data-bs-target="#staticBack">Tukar</button>
                         </div>
                     </div>
                 </div>
@@ -131,7 +140,7 @@
                         </ul>
                         <img src="../assets/img/ikea.png" alt="Image" class="img-fluid" width="55%">
                         <div class="d-grid gap-1 col-4 mx-auto">
-                            <button class="btn btn-primary mt-5" type="submit" name="submit">Tukar</button>
+                          <button class="btn btn-primary mt-5" type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Tukar</button>
                         </div>
                     </div>  
                 </div>
@@ -154,6 +163,60 @@
         </div>
     </div>
     </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="staticBack" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="staticBackdropLabel">Voucher</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                POIN TIDAK CUKUP :
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <section id="service-details" class="service-details" style="background-color: #F8F9FA;">
+      <div class="container" data-aos="fade-up" data-aos-delay="100" style="margin-bottom: 100px">
+        
+      <div class="row justify-content-center text-center">
+          <div class="col-md-7 mb-5">
+            <h2 class="section-heading">Riwayat Poin</h2>
+          </div>
+        </div>
+      <div class="row align-items-stretch">
+
+      <div class="row justify-content-md-center">
+      <div class="col-12">
+        <table class="table text-center">
+            <thead class="thead-dark">
+              <tr>
+                <th scope="col">Date</th>
+                <th scope="col">Layanan</th>
+                <th scope="col">Poin</th>
+                <th scope="col">Deskripsi</th>
+              </tr>
+            </thead>
+            <tbody>
+                <tr>
+                  <th scope="row">28/01/2023 21:33</th>
+                  <td>Tukar Poin</td>
+                  <td>-15000</td>
+                  <td>Voucher Gojek</td>
+                </tr>
+                <tr>
+                  <th scope="row">18/01/2023 12:42</th>
+                  <td>Penjemputan</td>
+                  <td>+2000</td>
+                  <td>2 Liter</td>
+                </tr>
+            </tbody>
+        </table>
+      </div>
+    </section>
 
   <!-- ======= Footer ======= -->
   <footer class="footer" role="contentinfo">
