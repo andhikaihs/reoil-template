@@ -173,7 +173,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                POIN TIDAK CUKUP :
+                POIN TIDAK CUKUP
             </div>
         </div>
     </div>
@@ -195,23 +195,23 @@
             <thead class="thead-dark">
               <tr>
                 <th scope="col">Date</th>
-                <th scope="col">Layanan</th>
-                <th scope="col">Poin</th>
                 <th scope="col">Deskripsi</th>
+                <th scope="col">Poin</th>
+                <th scope="col">Kode Voucher</th>
               </tr>
             </thead>
             <tbody>
                 <tr>
                   <th scope="row">28/01/2023 21:33</th>
-                  <td>Tukar Poin</td>
-                  <td>-15000</td>
                   <td>Voucher Gojek</td>
+                  <td>-15000</td>
+                  <td>2N0S-AN39-OE3J-39LK</td>
                 </tr>
                 <tr>
                   <th scope="row">18/01/2023 12:42</th>
                   <td>Penjemputan</td>
                   <td>+2000</td>
-                  <td>2 Liter</td>
+                  <td>-</td>
                 </tr>
             </tbody>
         </table>
