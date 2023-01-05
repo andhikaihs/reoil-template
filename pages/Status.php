@@ -105,7 +105,7 @@
                 <th scope="col">Layanan</th>
                 <th scope="col">Jumlah</th>
                 <th scope="col">Status</th>
-                <th scope="col">Poin</th>
+                <th></th>
               </tr>
             </thead>
             <tbody>
@@ -118,7 +118,7 @@
                     <td>Penjemputan</td>
                     <td>-</td>
                     <td>Menunggu Konfirmasi</td>
-                    <td>-</td>
+                    <td><button type="button" class="btn btn-danger btn-sm">Batalkan</button></td>
                 </tr>
                 <tr>
                     <th scope="row">142142</th>
@@ -129,7 +129,7 @@
                     <td>Penjemputan</td>
                     <td>2 Liter</td>
                     <td>Selesai</td>
-                    <td>2000</td>
+                    <td><button type="button" class="btn btn-danger btn-sm" disabled>Batalkan</button></td>
                 </tr>
             </tbody>
         </table>
